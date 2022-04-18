@@ -5,5 +5,5 @@ plugins {
 }
 
 dependencies {
-  dependency 'io.gitlab.arturbosch.detekt:detekt-formatting:${detekt}'
+  dependency "io.gitlab.arturbosch.detekt:detekt-formatting:${detekt}"
 }

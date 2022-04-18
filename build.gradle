@@ -1,0 +1,10 @@
+detekt = "1.18.1"
+
+plugins {
+  kotlin("jvm") version "1.3.71"
+  id "io.gitlab.arturbosch.detekt" version detekt
+}
+
+dependencies {
+  dependency 'io.gitlab.arturbosch.detekt:detekt-formatting:${detekt}'
+}
